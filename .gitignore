@@ -1,5 +1,29 @@
-# Object file
-*.o
+# Создано https://www.gitignore.io/api/windows
+# Edit at https://www.gitignore.io/?templates=windows
 
-# Ada Library Information
-*.ali
+### Windows ###
+# Файлы кэша миниатюр Windows
+Большой палец руки.децибел
+ehthumbs.децибел
+ehthumbs_vista.децибел
+
+# Файл дампа
+*.stackdump
+
+# Folder config
+[Dd]esktop.ini
+
+# Корзина, используемая в общих файловых ресурсах
+$РЕЦИРКУЛИРОВАТЬ.БУНКЕР/
+
+# Файлы установщика Windows
+*.кэб
+*.компания MSI
+*.msix
+*.МСМ
+*.ССП
+
+# ярлыки Windows
+*.lnk
+
+# Конец https://www.gitignore.io/api/windows
