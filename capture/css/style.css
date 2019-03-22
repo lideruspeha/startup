@@ -8551,7 +8551,17 @@ textarea.form-control {
   stroke-dashoffset: 0;
   -webkit-animation: loader-dash 1.5s ease-in-out infinite;
   animation: loader-dash 1.5s ease-in-out infinite;
-  stroke-linecap: round; }
+	stroke-linecap: round; }
+	
+.form-style{
+	border-radius: 10px;
+	width: 600px;
+	height: 45px;
+	margin:10px;
+}
+
+
+	
 
 @-webkit-keyframes loader-rotate {
   100% {
