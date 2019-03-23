@@ -67,6 +67,22 @@ body {
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
+	#header{
+		background: #f67e7d;
+		width: 100%;
+		height: 80px;
+	}
+
+.header{
+	margin-left: 650px;
+}
+.header p{
+	margin-top: 12px;
+color: #000000;
+line-height: 1;
+font-size: 22px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
@@ -8066,7 +8082,9 @@ textarea.form-control {
 .ftco-footer {
   font-size: 14px;
   background: #242423;
-  padding: 6em 0; }
+	padding: 6em 0; 
+
+}
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
@@ -8077,6 +8095,7 @@ textarea.form-control {
     font-weight: 700;
     letter-spacing: 1px; }
   .ftco-footer .ftco-footer-widget ul li a span {
+		
     color: #fff; }
   .ftco-footer .ftco-footer-widget .btn-primary {
     background: #fff !important;
@@ -8234,7 +8253,8 @@ textarea.form-control {
   .block-23 ul li, .block-23 ul li > a {
     display: table;
     line-height: 1.5;
-    margin-bottom: 15px; }
+		margin-bottom: 15px;
+	text-align:left; }
   .block-23 ul li span {
     color: rgba(255, 255, 255, 0.5); }
   .block-23 ul li .icon, .block-23 ul li .text {
@@ -8580,7 +8600,43 @@ input{
 	height: 20px;
 }
 
-	
+.forma {
+	 margin: 0 auto;
+	 width:60%; 
+	 margin-top: 2em;}
+.button { 
+	 background-repeat:no-repeat; 
+	 width:200px; 
+	 height:40px;
+	 border: 1px solid #565656;
+	 border-radius: 5px;
+	 color: #000;
+	 font-size: 14px; 
+	 background:rgb(248, 248, 248);
+	margin-left: 25px;
+	}
+.tel {
+	width:250px; 
+	height:25px; 
+	padding:20px; 
+	font-size: 14px;
+	border: 1px solid #565656; 
+	border-radius: 5px;}
+.results {
+	margin-top: 20px; 
+	text-align: center; 
+	font-size: 16px;	
+	font-weight: 100;	
+	font-family: helvetica,arial, sans-serif;	
+	width:97%;	
+	padding:10px; }
+.res {	
+	text-align: center;	
+	font-size: 16px;	
+	font-weight: 100;	
+	font-family: helvetica,arial,sans-serif;	
+	width:97%;	
+	padding:10px;}
 
 @-webkit-keyframes loader-rotate {
   100% {
