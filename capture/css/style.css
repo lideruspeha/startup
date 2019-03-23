@@ -8554,12 +8554,31 @@ textarea.form-control {
 	stroke-linecap: round; }
 	
 .form-style{
-	border-radius: 10px;
+	color: #000;
+	border-radius: 30px;
 	width: 600px;
-	height: 45px;
+	height: 60px;
 	margin:10px;
+	padding:0 20px; 
+	border:1;
 }
 
+.form-item select{
+	border-radius: 30px;
+	width: 600px;
+	height: 60px;
+	margin:10px;
+	padding:0 20px;
+}
+
+.t-input{
+	width: 600px;
+	height: 200px;
+}
+input{
+	width: 20px;
+	height: 20px;
+}
 
 	
 
